@@ -1,0 +1,689 @@
+<html>
+        
+       <head>
+              <title>project</title>
+              <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+              <link rel="stylesheet" href="index-README.md/index.css">
+              <!-- Bootstrap CSS -->
+              <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+              <!-- Font Awesome for Icons -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+       </head>
+
+       <body class="">
+        <header class="">
+          <nav  class="navbar navbar-expand-lg bg-body-tertiary bg-light border py-0 fixed-top col-sm-12">
+              <div class="container-fluid">
+                  <img class="navbar-brand border-bottom-0 px-1 mt-0 rounded-circle" src="images/syria.jpeg" alt="" height="100px" width="100px">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse container-sm " id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-8">
+                          <li class="nav-item">
+                              <a style="font-weight: 600; font-size: 18px;" class="nav-link active text-dark px-3 " aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item ">
+                              <a style="font-weight: 600; font-size: 18px;"  class="nav-link text-dark  px-3" href="#">Cap Lamp</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a style="font-weight: 600; font-size: 18px;"  class="nav-link dropdown-toggle text-dark  px-3" href="#" role="button" data-bs-toggle="dropdown"
+                                  aria-expanded="false">
+                                  Lamp
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Laser Lamp</a></li>
+                                  <li><a class="dropdown-item" href="#">Olight</a></li>
+                                  <li>
+                                      <hr class="dropdown-divider">
+                                  </li>
+                                  <li><a class="dropdown-item" href="#">LED Lamp</a></li>
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a style="font-weight: 600; font-size: 18px;"  class="nav-link  px-3 text-dark" aria-disabled="true">Aroma Light</a>
+                          </li>
+          
+                      </ul>
+                      <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-secondary mx-2" type="submit">Search</button>
+                      </form>
+          
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-dark m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          LogIn
+                      </button>
+                </div>
+              </div>
+          </nav>
+          </header>
+          <!-- Modal -->
+          <div class="modal fade" data-bs-backdrop="static" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">LogIn</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <div class="m-3">
+                                  <label class="form-label text-dark">Email address</label>
+                                  <input type="email" class="form-control text-dark border-3 border-dark rounded-2"
+                                      aria-describedby="emailHelp">
+                                  <p class="form-text text-secondary">We'll never share your email with anyone else.</p>
+                              </div>
+                              <div class="m-3">
+                                  <label class="form-label text-dark">Password</label>
+                                  <input type="password" class="form-control text-dark border-3 border-dark rounded-2">
+                              </div>
+                              <div class="m-3 form-check">
+                                  <div class="form-check form-switch">
+                                      <input class="form-check-input bg-dark border-dark" type="checkbox" role="switch" checked>
+                                      <label class="form-check-label text-dark" for="flexSwitchCheckChecked">Remmember me</label>
+                                  </div>
+                              </div> <!-- /form check -->
+          
+                          </form>
+                      </div>
+                      <div class="modal-footer d-flex  justify-content-between">
+                          <button type="submit" class="btn btn-dark text-light">Login</button>
+                          <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+                      </div> <!-- /model-footer -->
+                  </div>
+              </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" data-bs-backdrop="static" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">LogIn</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                              <div class="m-3">
+                                  <label class="form-label text-dark">Email address</label>
+                                  <input type="email" class="form-control text-dark border-3 border-dark rounded-2"
+                                      aria-describedby="emailHelp">
+                                  <p class="form-text text-secondary">We'll never share your email with anyone else.</p>
+                              </div>
+                              <div class="m-3">
+                                  <label class="form-label text-dark">Password</label>
+                                  <input type="password" class="form-control text-dark border-3 border-dark rounded-2">
+                              </div>
+                              <div class="m-3 form-check">
+                                  <div class="form-check form-switch">
+                                      <input class="form-check-input bg-dark border-dark" type="checkbox" role="switch" checked>
+                                      <label class="form-check-label text-dark" for="flexSwitchCheckChecked">Remmember me</label>
+                                  </div>
+                              </div> <!-- /form check -->
+          
+                          </form>
+                      </div>
+                      <div class="modal-footer d-flex  justify-content-between">
+                          <button type="submit" class="btn btn-dark text-light">Login</button>
+                          <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+                      </div> <!-- /model-footer -->
+                  </div>
+              </div>
+          </div>
+       
+                                                           <!--header  -->
+<!--//////////////////////////// ///////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+  <button>
+    <div class="social-icons">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-whatsapp"></i>
+  </div>
+  </button>
+    
+ <div id="carouselExampleCaptions" class="carousel slide container-w-100">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="images/syria.jpeg" class="d-block w-100" alt="..." height="800px">
+          <div class="carousel-caption d-none d-md-block">
+                <div class="IES">
+                  <h2>Syria</h2>
+                  <h4>Damascus</h4>
+                </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/bloudan.jpeg" class="d-block w-100" alt="..." height="800px">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="IES">
+              <h2>Syria</h2>
+              <h4>Bloudan</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/lattakia.jpeg" class="d-block w-100" alt="..." height="800px">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="IES">
+              <h2>Syria</h2>
+              <h4>Latakia</h4>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/aleppo.jpeg" class="d-block w-100" alt="..." height="800px">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="IES">
+              <h2>Syria</h2>
+              <h4>Aleppo</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+ </div>
+       
+                                                 <!-- الصور العلم -->
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+              <div class="container-fluid pt-5 bg-Info">
+                <h1 class="mx-4">WELCOME</h1>
+                <p class="mx-4">This container has an extra top padding ARE BIDU IDHVDNN JDHDCNVUDVMCNXVFV ODCKJDS IJDCM WJIDJD CIDEYE DVI DCDIDCD9OFSKD OPSJDBFSDKS.fvnfdjhf fd grjifsnfms jif vfkdsmf sdvsdjoi fdfsdkfsd vsdk</p>
+                <button type="button" class="btn btn-light btn-lg mx-4 mb-5 " style="color: rgb(66, 244, 244);">Learn more</button>
+              </div>
+                                                              <!--WELCOME  -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+              <hr>
+              <div class="container-fluid p-5 bg-Info text-white text-center">
+                <h2>popular destinations in Syria</h2>
+              </div>
+                                                               <!--popular-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                  <br> 
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Damascus
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Aleppo
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Latakia
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                  </div>
+                                                          <!--collapse  -->
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                   <hr>
+                   <div class="container-fluid p-2 bg-primary text-white text-center border br">
+                    <h2>Translate From Arabic To English </h2>
+                  </div>
+                                                                   <!--Translate  -->
+ <!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                    <div class="container-fluid bg-Info pt-4">
+                      <div class="container">
+                        <span class="Fs-4" style="color: white;">Write and Translate </span>
+                        <span class=" Fs-4">Press Here</span>
+                        <br>
+                        <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's  some amazing content. It's very engaging. Right?">copy</button>
+                        <form action="/action_page.php">
+                          <div class="mb-3 mt-3 mx-1 me-5">
+                            <textarea class="form-control FOL" rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+                            <br>
+                          </div>
+                        </form>
+                      </div>
+                    </div> 
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                     <hr>
+                     <div class="container-fluid p-2 bg-primary text-white text-center border br">
+                           <h2>Translate From Arabic To English </h2>
+                     </div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                    <div class="container-fluid bg-Info pt-4">
+                         <div class="container ">
+                               <span class="Fs-4" style="color: white;">Write and Translate </span>
+                               <span class=" Fs-4">Press Here</span>
+                               <br>
+                               <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's  some amazing content. It's very engaging. Right?">copy</button>
+                               <form action="/action_page.php">
+                                    <div class="mb-3 mt-3 mx-1 me-5">
+                                         <textarea class="form-control " rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+                                         <br>
+                                    </div>
+                               </form>
+                         </div>
+                   </div> 
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////////  --> 
+                    <hr>
+                    <div class="container-fluid p-2 bg-primary text-white text-center border br">
+                         <h2>Translate From Arabic To English </h2>
+                    </div>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                  <div class="container-fluid bg-Info pt-4">
+                       <div class="container ">
+                               <span class="Fs-4" style="color: white;">Write and Translate </span>
+                               <span class=" Fs-4">Press Here</span>
+                               <br>
+                               <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's  some amazing content. It's very engaging. Right?">copy</button>
+                               <!-- <script>
+                                var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                                var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                                  return new bootstrap.Popover(popoverTriggerEl)
+                                })
+                                </script> -->
+                               <form action="/action_page.php">
+                                     <div class="mb-3 mt-3 mx-1 me-5">
+                                           <textarea class="form-control FOL" rows="5" id="comment" name="text" placeholder="translate:"></textarea>
+                                           <br>
+                                      </div>
+                               </form>
+                       </div>
+                  </div> 
+                  <hr>
+                  <div class="image-IF">
+                        
+                  </div>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                  <div class="container-fluid p-2 bg-primary  text-center border br">
+                         <h2>POPULAR DESTINATION IN SYRIA </h2>
+                  </div>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                     <br>
+                     <br>
+                     <br>
+                   <div class="container-fluid BA">
+                        <div class="card SB" >
+                                   <div class="img-BA">
+                                         <img src="images/alamoy mosuqe.jpeg" class="card-img-top" height="400px" >
+                                     </div>
+                                      <div class="card-body" style="width: 18rem;">
+                                           <h5 class="card-title">alamoy mousqe</h5>
+                                           <p class="card-text">xijdm jgfbd hfescx  fdddsxvvbng mj iy  t d b tfdg ffgh mn gyh</p>
+                                           <a  class="btn btn-primary">Go somewhere</a>
+                                       </div>
+                           </div>
+                          <div class="card SB" >
+                                   <div class="img-BA">
+                                          <img src="images/souq alhamadia.jpeg" class="card-img-top" height="400px" >
+                                     </div>
+                                    <div class="card-body" style="width: 18rem;">
+                                           <h5 class="card-title">Card title</h5>
+                                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> 
+                                           <a  class="btn btn-primary">Go somewhere</a>                                               
+                                       </div> 
+                             </div>
+                             <div class="card SB ">
+                                  <div class="img-BA">
+                                           <img src="images/saif damascus.jpeg" class="card-img-top" height="400px" >
+                                     </div>
+                                     <div class="card-body" style="width: 18rem;">
+                                           <h5 class="card-title">Card title</h5>
+                                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                           <a  class="btn btn-primary">Go somewhere</a>
+                                       </div>
+                               </div>
+                     </div>
+                    <br>
+                    <br>
+                   <div class="container-fluid BA">
+                       <div class="card SB">
+                              <div class="img-BA">
+                                  <img src="images/aleppo mousqe.jpeg" class="card-img-top" height="400px" >
+                               </div>
+                               <div class="card-body" style="width: 18rem;">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a class="btn btn-primary">Go somewhere</a>
+                                 </div>
+                         </div>
+                       <div class="card SB">
+                            <div class="img-BA">
+                                <img src="images/aleppo minaret.jpeg" class="card-img-top" height="400px" >
+                             </div>
+                             <div class="card-body" style="width: 18rem;">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  <a  class="btn btn-primary">Go somewhere</a>
+                               </div>
+                           </div>
+                        <div class="card SB">
+                              <div class="img-BA">
+                                     <img src="images/aleppo souq.jpeg" class="card-img-top" height="400px" >
+                                 </div>
+                                <div class="card-body" style="width: 18rem;">
+                                       <h5 class="card-title">Card title</h5>
+                                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                       <a  class="btn btn-primary">Go somewhere</a>
+                                   </div>
+                             </div>
+                       </div>
+                        <br>
+                        <br>
+                        <div class="container-fluid BA">
+                             <div class="card SB ">
+                                   <div class="img-BA">
+                                          <img src="images/latakia circle.jpeg" class="card-img-top" height="400px" >
+                                     </div>
+                                     <div class="card-body" style="width: 18rem;">
+                                              <h5 class="card-title">Card title</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a  class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                 </div>
+                                 <div class="card SB">
+                                      <div class="img-BA">
+                                            <img src="images/latakia moutain.jpeg" class="card-img-top" height="400px" >
+                                         </div>
+                                         <div class="card-body" style="width: 18rem;">
+                                               <h5 class="card-title">Card title</h5>
+                                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                               <a  class="btn btn-primary">Go somewhere</a>
+                                            </div>
+                                     </div>
+                            </div>
+<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                   <br>
+                   <br>
+                   <div class="image-IF">
+                        
+                   </div>
+                   <hr>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                   <div class="container-fluid p-2 bg-primary  text-center border br">
+                         <h2>THANKS FOR </h2>
+                   </div>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+           <div class="container-fluid">
+                   <div class="row justify-content-evenly">
+                              <div class="div1">
+                                <div class="overlay">
+                                      <div class="information">
+                                           <h2 class="GD2">All thanks and appreciation</h2>
+                                      </div>                                  
+                                      <p class="GD3">October 15, 2020</p>
+                                      <img src="images/chairs.jpg" alt="" class="rounded-circle" height="120px" width="100px">
+                                      <p class="GD3">tyygnhukkjki jhjhgbbhkjkj <br> jhjghgnvg</p>
+                                </div>
+                            </div>      
+                            <div class="div1">
+                               <div class="overlay">
+                                    <div class="information">
+                                         <h2 class="GD2">All thanks and appreciation</h2>
+                                    </div>                                  
+                                    <p class="GD3">October 15, 2020</p>
+                                    <img src="images/chairs.jpg" alt="" class="rounded-circle" height="120px" width="100px">
+                                    <p class="GD3">tyygnhukkjki jhjhgbbhkjkj <br> jhjghgnvg</p>
+                                 </div>
+                              </div>      
+                              <div class="div1">
+                              <div class="overlay">
+                                 <div class="information">
+                                       <h2 class="GD2">All thanks and appreciation</h2>
+                                   </div>                                  
+                                   <p class="GD3">October 15, 2020</p>
+                                   <img src="images/chairs.jpg" alt="" class="rounded-circle" height="120px" width="100px">
+                                   <p class="GD3">tyygnhukkjki jhjhgbbhkjkj <br> jhjghgnvg</p>
+                                </div>
+                         </div> 
+                   </div>      
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                    <div class="container-fluid p-2   text-center  br">
+                         <h2>THANKS FOR </h2>
+                    </div>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+<div class="card mb-3 m-auto" style="width:1100px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/syria.jpeg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Podcast Title</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+        </svg> <span>Mon, May 25th 2020</span>
+        <div class="line"></div>
+      </div>
+      <p class="pcard m-3">kjhugtfgggggggggggggggghv fvcvxfbcgnvhmhmhj mjmjbmjm m mj ,, j,  , nhmvbhj jgvf fdf <br> khjgfsgd cuhsdyf sbdas  dsbdhsggsgbscbshbcgfscsvcgscbbggdvfbfdbvcbgbcdvfdsvfccvcv <br>dvbhdsgvjhsdgbdsncvhjfcsd   ydashd sgytdsydgdhsdgfysuikajhyfvgshd eu f dsbshjgdsfygtyusddjkajhjsdgfyusdghbds ududsfsdhjsks <br> dcdssdjfhsdfaegfdhsgysgfhfjabfhgsdvbdnv yuyiuewkhjlkhytrewqwsdfvn</p>
+      <button type="button" class="btn btn-light" style="color: rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+        <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
+        <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light" style="color:  rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+      </svg>Light</button> 
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card mb-3 m-auto" style="width:1100px;">
+  <div class="row g-0">
+    <div class="col-md-8">
+      <div class="card-body C4">
+        <h2 class="card-title">Podcast Title</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+        </svg> <span>Mon, May 25th 2020</span>
+        <div class="line"></div>
+      </div>
+      <p class="pcard m-3">kjhugtfgggggggggggggggghv fvcvxfbcgnvhmhmhj mjmjbmjm m mj ,, j,  , nhmvbhj jgvf fdf <br> khjgfsgd cuhsdyf sbdas  dsbdhsggsgbscbshbcgfscsvcgscbbggdvfbfdbvcbgbcdvfdsvfccvcv <br>dvbhdsgvjhsdgbdsncvhjfcsd   ydashd sgytdsydgdhsdgfysuikajhyfvgshd eu f dsbshjgdsfygtyusddjkajhjsdgfyusdghbds ududsfsdhjsks <br> dcdssdjfhsdfaegfdhsgysgfhfjabfhgsdvbdnv yuyiuewkhjlkhytrewqwsdfvn</p>
+      <button type="button" class="btn btn-light" style="color: rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+        <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
+        <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light" style="color:  rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+      </svg>Light</button>
+    </div>
+    <div class="col-md-4">
+      <img src="images/syria.jpeg" class="img-fluid rounded-start" alt="...">
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="card mb-3 m-auto" style="width:1100px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="images/syria.jpeg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">Podcast Title</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar" viewBox="0 0 16 16">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+        </svg> <span>Mon, May 25th 2020</span>
+        <div class="line"></div>
+      </div>
+      <p class="pcard m-3">kjhugtfgggggggggggggggghv fvcvxfbcgnvhmhmhj mjmjbmjm m mj ,, j,  , nhmvbhj jgvf fdf <br> khjgfsgd cuhsdyf sbdas  dsbdhsggsgbscbshbcgfscsvcgscbbggdvfbfdbvcbgbcdvfdsvfccvcv <br>dvbhdsgvjhsdgbdsncvhjfcsd   ydashd sgytdsydgdhsdgfysuikajhyfvgshd eu f dsbshjgdsfygtyusddjkajhjsdgfyusdghbds ududsfsdhjsks <br> dcdssdjfhsdfaegfdhsgysgfhfjabfhgsdvbdnv yuyiuewkhjlkhytrewqwsdfvn</p>
+      <button type="button" class="btn btn-light" style="color: rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tag" viewBox="0 0 16 16">
+        <path d="M6 4.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m-1 0a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0"/>
+        <path d="M2 1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2a1 1 0 0 1 1-1m0 5.586 7 7L13.586 9l-7-7H2z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+      </svg>Light</button>
+      <button type="button" class="btn btn-light" style="color:  rgb(58, 58, 185);"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393"/>
+      </svg>Light</button> 
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+                            <div class="container-fluid p-2   text-center  br">
+                                 <h2>JOIN US</h2>
+                            </div> 
+                            <br>
+                            <div class="container-fluid">
+                                   <div class="row justify-content-evenly">
+                                         <div class="div13">
+                                             <h3 class="h13">Subscribe Now</h3>
+                                             <img class="img-SN" src="images/instagram icon.jpeg" alt="" width="130px" height="130px">
+                                             <h3 class="h13">Go to link</h3>
+                                           </div>
+                                           <div class="div13 mt-4">
+                                              <h3 class="h13">Subscribe Now</h3>
+                                              <img class="img-SN" src="images/phone icone.jpeg" alt="" width="130px" height="130px">
+                                              <h3 class="h13">Go to link</h3>
+                                            </div>
+
+                                            <div class="div13 mt-4">
+                                              <h3 class="h13">Subscribe Now</h3>
+                                              <img class="img-SN" src="images/in icon.jpeg" alt="" width="130px" height="130px">
+                                              <h3 class="h13">Go to link</h3>
+                                            </div>
+                                            <div class="div13 mt-4">
+                                              <h3 class="h13">Subscribe Now</h3>
+                                              <img class="img-SN" src="images/tiwtter icon.jpeg" alt="" width="130px" height="130px">
+                                              <h3 class="h13">Go to link</h3>
+                                            </div>
+                                     </div>
+                            </div>
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+                            <br>
+                            <div class="container-fluid footer">
+                                   <div class="lines-FR">
+                                        <div class="line-FR">
+                
+                                        </div>
+                                         <div class="line-FR">
+                                     
+                                         </div>
+                                         <div class="line-FR">
+                                     
+                                         </div>
+                                   </div>
+
+                                   <div class="circles-FRC">
+                                          <div class="circle1">
+                                                 <img src="images/chairs.jpg" alt="" class="rounded-circle" height="100px" width="100px"> 
+                                                 <span class="">Good Company</span>
+                                          </div>
+                                          <div class="circle2">
+                                                 <img src="images/chairs.jpg" alt="" class="rounded-circle" height="100px" width="100px">
+                                                 <span>Good Company</span>
+                                          </div>
+                                          <div class="circle3">
+                                                 <img src="images/chairs.jpg" alt="" class="rounded-circle" height="100px" width="100px">
+                                                 <span>Good Company</span>
+                                          </div>
+                                   </div>
+
+                                   <div class="lines-FR">
+                                        <div class="line-FR">
+                
+                                        </div>
+                                         <div class="line-FR">
+                                     
+                                         </div>
+                                         <div class="line-FR">
+                                     
+                                         </div>
+                                   </div>
+
+                                   <div class="writes">
+                                          <div class="write1">
+                                                <p>Tel: 000-000-000</p>
+                                                <p>Adress: EGYPT</p>
+                                                 <p> Fax: 000-000-000</p>
+                                          </div>
+                                          <div class="write2">
+                                               <p><a href="">Visit Us</a></p> 
+                                                <p><a href="">Take alook</a></p>
+                                                <p><a href="">Your health is more important</a></p>
+                                          </div>
+                                          <div class="write3">
+                                                 <p>Services for all</p>
+                                                 <p>provides best services</p>
+                                                 <p>you will be better thanks before</p>
+                                          </div>
+                                   </div>
+                                   <div class="line-large">
+                                                 
+                                   </div>
+                                   <div class="container-fluid p-2   text-center  br">
+                                           <h2>COPY RIGHT @ 2020 SHIMAAHUSSIEN EL SAID . Good COMPANY.ALL RIGHTS </h2>
+                                   </div>
+                                   <br>
+                                   <br>
+                                   <br>
+                                   <br>
+                                    
+
+
+                                   
+                                  
+                            </div>
+                        
+                  
+       </body> 
+</html> 
